@@ -1,0 +1,129 @@
+
+    footer{
+        height: 400px;
+        width: 100%;
+        box-shadow: 0 2px 3px rgba(0,0,0,.3);
+        padding: 30px 0;
+        background: #000000;
+    }
+    #Fleft{
+        margin-left: 8%;
+        width: 42%;
+        height: auto;
+        float: left;
+    }
+    #Fleft input{
+        display:inline-block;
+        height: 40px;
+        background: whitesmoke;
+        border-radius: 5px;
+        font-family: lato-R;
+        font-size: 14px;
+        color: #000;
+        border: none;
+        width: 400px;
+    }
+
+    textarea{
+        background:whitesmoke ;
+        border-radius: 5px;
+        font-family: lato-R;
+        font-size: 14px;
+        color:#000;
+        border: none;
+        width: 400px;
+
+    }
+    #Fleft input[type="submit"]{
+        width: 100px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        font-family: Lato-R;
+        font-size: 14px;
+        background-color: whitesmoke;
+        color: #c0392b;
+        font-size: 16px;
+
+    }
+    #Fleft input[type="submit"]:hover {
+        background-color: #bdc3c7;
+        transition: all .5s;
+    }
+
+    #Fright {
+        width: 42%;
+        height: auto;
+        float: right;  }
+
+    #email{
+        height: 100px;
+        line-height: 100px;
+        margin-bottom: 60px;  }
+
+    #email input[type="text"]{
+        height: 40px;
+        background: #D7DBE3;
+        border-radius: 5px 0 0 5px;
+        font-family: lato-R;
+        font-size: 16px;
+        color:#fff;
+        padding-left:10px ;
+        outline:none;
+        border: none;
+        width: 220px;  }
+
+    #email input[type="submit"]{
+        width: 50px;
+        height: 42px;
+        border: none;
+        margin-left: -5px;
+        margin-top: 28.5px;
+        background: url("../images/icons/loop.png") #92969F center center no-repeat;
+        border-radius: 0 5px 5px 0;  }
+    #email input[type="submit"]:hover{
+        background-color:#bdc3c7;
+        transition: all .5s;  }
+
+    h1{
+        color: #c0392b;
+        font-size: 25px;
+        font-family: lato-R;
+    }
+#socialMedia{
+    float: left;
+}
+#socialMedia ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#socialMedia ul li {
+    float: left;
+    margin: 0 5px;
+    width: 64px;
+    height: 64px;
+    cursor: pointer;
+
+}
+#facebook{
+
+    background: url("../images/icons/fb.png") top center no-repeat;
+}
+#twitter{
+    background: url("../images/icons/twitter.png") top center no-repeat;
+}
+#google{
+    background: url("../images/icons/google.png") top center no-repeat;
+}
+#youtube{
+    background: url("../images/icons/youtube.png") top center no-repeat;
+}
+
+#socialMedia ul li:hover{
+
+    background-position: bottom;
+    transform: rotate(360deg);
+    transition: .5s transform ;
+}
